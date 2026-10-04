@@ -62,10 +62,18 @@ https://websys-boroelyzamarie-bsis2a.onrender.com
 - HTML5
 - CSS3
 - JavaScript
-- Bootstrap
+- Bootstrap 5
+- DOM Manipulation
+- Local Storage
+- REST API
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- Git
 - GitHub
-- you can add more if you want
----
+- Visual Studio Code
+- Render
 
 ## Notes
 This project was developed as part of the Midterm Laboratory Requirement.
