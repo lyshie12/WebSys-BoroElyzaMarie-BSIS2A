@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Elyza Digital Lab - Week 2</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: white;
+            color: #222222;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #7B1113;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        header p {
+            margin: 5px 0 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            opacity: 0.7;
+        }
+
+        main,
+        #multimedia {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 25px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        h2 {
+            color: #7B1113;
+          
+        }
+
+        figure {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.02);
+        }
+
+        figcaption {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        video {
+            display: block;
+            width: 100%;
+            max-width: 700px;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #7B1113;
+            color: white;
+            text-align: center;
+            padding: 18px;  
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        header:hover,
+        footer:hover {
+            opacity: 0.9;
+            transition: 0.3s;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 25px;
+            }
+
+            nav li {
+                display: block;
+                margin: 8px 0;
+            }
+
+            main,
+            #multimedia {
+                margin: 15px;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Elyza Digital Lab</h1>
+        <p>Learn • Design • Develop</p>
+
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#multimedia">Multimedia</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About HTML5</h2>
+            <p>
+                HTML5 introduces semantic elements and multimedia integration,
+                making web pages more accessible and structured.
+            </p>
+        </section>
+    </main>
+
+    <section id="multimedia">
+        <h2>Multimedia Features</h2>
+
+        <figure>
+            <img src="image1.jpg"
+                 width="400"
+                 height="500"
+                 alt="Placeholder Image">
+
+            <figcaption>
+                Figure 1: Placeholder image demonstrating multimedia.
+            </figcaption>
+        </figure>
+
+        <video controls>
+            <source src="video1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <footer>
+        <p>Elyza Digital Lab | Web Systems Portfolio</p>
+    </footer>
+
+</body>
+</html>
